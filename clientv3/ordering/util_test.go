@@ -20,8 +20,8 @@ import (
 	"time"
 
 	"go.etcd.io/etcd/v3/clientv3"
-	"go.etcd.io/etcd/integration"
-	"go.etcd.io/etcd/pkg/testutil"
+	"go.etcd.io/etcd/v3/integration"
+	"go.etcd.io/etcd/v3/pkg/testutil"
 )
 
 func TestEndpointSwitchResolvesViolation(t *testing.T) {

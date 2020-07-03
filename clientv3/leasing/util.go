@@ -18,7 +18,7 @@ import (
 	"bytes"
 
 	v3 "go.etcd.io/etcd/v3/clientv3"
-	v3pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	v3pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 func compareInt64(a, b int64) int {

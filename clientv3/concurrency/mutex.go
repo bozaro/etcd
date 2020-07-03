@@ -20,7 +20,7 @@ import (
 	"sync"
 
 	v3 "go.etcd.io/etcd/v3/clientv3"
-	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
+	pb "go.etcd.io/etcd/v3/etcdserver/etcdserverpb"
 )
 
 // Mutex implements the sync Locker interface with etcd

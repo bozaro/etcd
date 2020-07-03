@@ -29,7 +29,7 @@ const (
 	PrivateFileMode = 0600
 )
 
-var plog = capnslog.NewPackageLogger("go.etcd.io/etcd", "pkg/fileutil")
+var plog = capnslog.NewPackageLogger("go.etcd.io/etcd/v3", "pkg/fileutil")
 
 // IsDirWriteable checks if dir is writable by writing and removing a file
 // to dir. It returns nil if dir is writable.

@@ -20,8 +20,8 @@ import (
 	"sync"
 	"time"
 
-	v3 "go.etcd.io/etcd/clientv3"
-	"go.etcd.io/etcd/clientv3/concurrency"
+	v3 "go.etcd.io/etcd/v3/clientv3"
+	"go.etcd.io/etcd/v3/clientv3/concurrency"
 	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
 	pb "go.etcd.io/etcd/etcdserver/etcdserverpb"
 	"go.etcd.io/etcd/mvcc/mvccpb"

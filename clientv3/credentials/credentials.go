@@ -22,7 +22,7 @@ import (
 	"net"
 	"sync"
 
-	"go.etcd.io/etcd/clientv3/balancer/resolver/endpoint"
+	"go.etcd.io/etcd/v3/clientv3/balancer/resolver/endpoint"
 	"go.etcd.io/etcd/etcdserver/api/v3rpc/rpctypes"
 	grpccredentials "google.golang.org/grpc/credentials"
 )

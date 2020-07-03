@@ -22,7 +22,7 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"go.etcd.io/etcd/clientv3"
+	"go.etcd.io/etcd/v3/clientv3"
 	"go.etcd.io/etcd/pkg/tlsutil"
 )
 
